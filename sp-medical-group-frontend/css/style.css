@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
     margin: 0;
@@ -74,7 +73,7 @@
 .banner {
     width: 100%;
     height: 770px;
-    background-image: linear-gradient(to bottom, rgb(69 60 210 / 40%), rgb(15 229 255 / 53%)), url(assest-css/banner.jpg);
+    background-image: linear-gradient(to bottom, rgb(69 60 210 / 40%), rgb(15 229 255 / 53%)), url('../assets/banner.jpg');
     background-size: cover;
     border: none;
     display: flex;
@@ -318,7 +317,7 @@
     border-radius: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .img-especialidade {
@@ -337,8 +336,8 @@
 }
 
 .txt-especialidade {
-    width: 50%;
-    height: 100%;
+    width: 45%;
+    height: 90%;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -351,14 +350,14 @@
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 150%;
+    font-size: 125%;
     font-weight: normal;
     letter-spacing: 0em;
     color: #3a3a3a;
 }
 
 .texto-txt-especialidade {
-    height: 85%;
+    height: 90%;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -367,7 +366,7 @@
     font-size: 100%;
     font-weight: normal;
     letter-spacing: 0em;
-    width: 80%;
+    width: 85%;
     color: #3a3a3a;
 }
 
@@ -567,7 +566,7 @@ footer p {
     text-transform: capitalize;
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
-    font-size: 140%;
+    font-size: 20px;
     font-weight: normal;
     letter-spacing: 0em;
 }
@@ -577,17 +576,17 @@ footer p {
     justify-content: space-between;
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
-    font-size: 140%;
+    font-size: 20px;
     font-weight: normal;
     letter-spacing: 0em;
     height: 100%;
-    width: 30%;
+    width: 180px;
 }
 
 .lembrar-quadrado {
     background-color: #ffffff;
-    width: 14.4%;
-    height: 40%;
+    width: 25px;
+    height: 25px;
     border-radius: 30%;
     border: #dbdbdb;
     border-style: solid;
@@ -630,7 +629,7 @@ footer p {
 .banner-medicos {
     width: 100%;
     height: 220px;
-    background-image: url(assest-css/banner-medicos.png);
+    background-image: url('../assets/banner-medicos.png');
     background-size: cover;
     border: none;
     display: flex;
@@ -704,8 +703,8 @@ footer p {
 }
 
 .circulo-perfil-medico {
-    width: 93%;
-    height: 75%;
+    height: 175px;
+    width: 175px;
     border-radius: 100%;
     background-color: #ffffff;
     border: #DBDBDB;
@@ -766,7 +765,7 @@ footer p {
 
 .espe-cli-medico2 {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 135%;
     color: #3a3a3a;
 }
@@ -784,13 +783,15 @@ footer p {
     background-color: #ffffff;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 100px;
 }
 
 .img-marque-uma-consulta {
     height: 40%;
     width: 100%;
-    background-image: url(assest-css/marques.png);
+    background-image: url('../assets/marques.png');
     background-size: cover;
+    background-position-x: center;
     border-radius: 50px;
 }
 
@@ -827,9 +828,9 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 180px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 120%;
+    font-size: 17px;
     font-weight: 400;
     text-align: left;
 }
@@ -839,7 +840,7 @@ footer p {
 .banner-unidades {
     width: 100%;
     height: 220px;
-    background-image: url(assest-css/banner-unidades.png);
+    background-image: url('../assets/banner-unidades.png');
     background-size: cover;
     border: none;
     display: flex;
@@ -895,7 +896,7 @@ footer p {
 }
 
 .conteudo-caixa-unidades2 {
-    width: 80%;
+    width: 88%;
     height: 100%;
 }
 
@@ -929,15 +930,15 @@ footer p {
 
 .end-hor-unidades2 {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 135%;
     color: #3a3a3a;
 }
 
 .mapa {
-    width: 30%;
-    height: 100%;
-    background-image: url(assest-css/mapa.png);
+    width: 270px;
+    height: 270px;
+    background-image: url('../assets/mapa.png');
     background-size: cover;
     border-radius: 50px;
     border-left-style: solid;
@@ -946,4 +947,518 @@ footer p {
     border-bottom-color: #dbdbdb;
     border-top-style: solid;
     border-top-color: #dbdbdb;
+}
+
+/*========================================================================= Especialidades =========================================================================*/
+
+.banner-especialidades {
+    width: 100%;
+    height: 220px;
+    background-image: url('../assets/banner-especialidades.png');
+    background-size: cover;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    border-bottom: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+}
+
+.banner-especialidades h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: white;
+    text-shadow: 8px 8px 3px rgb(0 0 0 / 25%);
+}
+
+.imagem-especialidade {
+    width: 270px;
+    height: 270px;
+    border-radius: 50px;
+    background-color: #C4C4C4;
+    max-width: 250px;
+    max-height: 102%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-especialidade img {
+    width: 220px;
+    height: 220px;
+}
+
+.caixa-especialidade {
+    width: 90%;
+    height: 250px;
+    border: #DBDBDB;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #D4EFF3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: drop-shadow(25px 25px 50px rgba(0, 0, 0, 0.2));
+    margin-bottom: 15%;
+}
+
+.conteudo-especialidade {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.conteudo-especialidade h3 {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    color: #3a3a3a;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.conteudo-especialidade div{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #3a3a3a;
+}
+
+.conteudo-especialidade div div{
+    height: 1.5px;
+    width: 100%;
+    background-color: #3a3a3a;
+}
+
+.conteudo-especialidade p {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #3a3a3a;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.conteudo-especialidade a {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    color: #3a3a3a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration-line: underline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*========================================================================= Consultas - Cliente =========================================================================*/
+
+.banner-consultas {
+    width: 100%;
+    height: 220px;
+    background-image: url('../assets/banner-consultas.png');
+    background-size: cover;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    border-bottom: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+}
+
+.banner-consultas h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: white;
+    text-shadow: 8px 8px 3px rgb(0 0 0 / 25%);
+}
+
+.main-consultas {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #E5E5E5;
+}
+
+.conteudo-main-consultas1 {
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #B8F0D8;
+    border: 2px solid #DBDBDB;
+    box-sizing: border-box;
+    box-shadow: 25px 25px 50px rgb(0 0 0 / 20%);
+    border-radius: 50px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.conteudo-main-consultas1 h2 {
+    width: 60%;
+    align-self: center;
+    margin: 50px 0 35px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3a3a3a;
+}
+
+.dados-consultas {
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    font-weight: normal;
+    width: 60%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.caixa-consultas {
+    background-color: #FFFFFF;
+    border: #dbdbdb;
+    border-style: solid;
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.barra-especialidade {
+    display: flex;
+    width: 60%;
+    align-self: center;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    border: #dbdbdb;
+    border-style: solid;
+    justify-content: center;
+}
+
+.barra-especialidade select {
+    display: flex;
+    width: 95%;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #3a3a3a;
+    border-radius: 50px;
+    background: none;
+    border: none;
+    align-self: center;
+    justify-self: center;
+    outline: none;
+}
+
+.barra-especialidade select option {
+    background-color: #ffffff;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    font-weight: normal;
+    width: 180px;
+    height: 60px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    border: #dbdbdb;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-main-consultas2 {
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.conteudo-main-consultas2 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    color: #3A3A3A;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.linha-suas-consultas {
+    width: 40%;
+    background-color: #3a3a3a;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.caixa-suas-consultas {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #D4EFF3;
+    border: 2px solid #DBDBDB;
+    box-sizing: border-box;
+    box-shadow: 25px 25px 50px rgb(0 0 0 / 20%);
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+.conteudo-suas-consultas {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.descricao-suas-consultas {
+    width: 90%;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 2px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-suas-consultas1 {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.conteudo-suas-consultas2 {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.dado-suas-consultas {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+}
+
+.dado-suas-consultas span {
+    width: fit-content;
+    height: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3A3A3A;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+
+.dado-suas-consultas p {
+    width: fit-content;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3A3A3A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descricao-suas-consultas p {
+    width: 90%;
+    height: 75%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #3A3A3A;
+    font-family: 'Roboto', sans-serif;
+    word-break: break-word;
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    max-height: 100%;
+}
+
+.situacao-consulta {
+    width: fit-content;
+    height: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3A3A3A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.data-consulta {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.data-consulta span {
+    width: fit-content;
+    height: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3A3A3A;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+
+.data-consulta p {
+    width: fit-content;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3A3A3A;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*========================================================================= Consultas - Médico =========================================================================*/
+
+
+.conteudo-main-consultas-medico {
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.conteudo-main-consultas-medico h2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    color: #3A3A3A;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.descricao-suas-consultas-medico {
+    width: 90%;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 2px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.descricao-suas-consultas-medico input {
+    width: 95%;
+    height: 50%;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #B9B9B9;
+}
+
+.descricao-suas-consultas-medico input::placeholder {
+    color: #B9B9B9;
+}
+
+/*========================================================================= Consultas - Administrador =========================================================================*/
+
+.barra-data {
+    display: flex;
+    width: 20%;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    border: #dbdbdb;
+    border-style: solid;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 20%;
+}
+
+.barra-data input {
+    display: flex;
+    width: 80%;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #3a3a3a;
+    border-radius: 50px;
+    background: none;
+    border: none;
+    align-self: center;
+    justify-self: center;
+    outline: none;
 }
