@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tituloGIT {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3a3a3a;
+    margin-bottom: 30px;
+}
+
+.sectionGIT {
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionGIT input {
+    width: 310px;
+    height: 45px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3a3a3a;
+    border-radius: 50px;
+    justify-content: center;
+    justify-items: center;
+    border-style: solid;
+    padding: 15px;
+}
+
+.sectionGIT button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #3a3a3a;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+.mainGIT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 200px;
+}
+
+.tableGIT {
+    width: 1200px;
+    border: 2px;
+    border-style: solid;
+    background-color: #ffadad;
+}
+
+.tableGIT th {
+    border: none;
+    border-style: none;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    background-color: #ffadad;
+}
+
+.tableGIT td {
+    border: 2px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    background-color: #ffe6e6;
+}
+
+.naoAchei0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.naoAchei {
+    margin-top: 20px;
+}
+
+.sectionGIT2 {
+    width: fit-content;
+    margin-top: 35px;
+    margin-bottom: 200px;
+}
+
+.container-header {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-bottom: #DBDBDB;
+    border-bottom-style: inset;
+    z-index: 9999;
+}
+
+.conteudo-header{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 65%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu-click {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+
+.entrar{
+    width: 12%;
+    height: 50%;
+    background-color: #A8DAF9;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+
+.banner {
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: #DBDBDB;
+    border-bottom-style: inset;
+}
+
+.banner-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.textos-banner {
+    display: block;
+}
+
+.banner-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    width: 60%;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.banner-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    width: 60%;
+    color: white;
+}
+
+.unidades-home {
+    width: 100%;
+    height: 140px;
+    background-color: #C3F0DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #DBDBDB;
+    border-bottom-style: inset;
+}
+
+.unidades-home-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.unidades-uppercase {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+}
+
+.clinicas-home {
+    height: 60%;
+    width: 20%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-clinica {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados-clinica {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.fundo-home {
+    width: 100%;
+    height: 1500px;
+    background-color: #E5E5E5;
+    display: grid;
+    align-items: center;
+}
+
+.fundo1 {
+    height: 750px;
+    width: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fundo2 {
+    height: 750px;
+    width: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.retangulo-torto {
+    width: 100%;
+    height: 60%;
+    -webkit-transform: skew(20deg);
+    background: #C1E8EE;
+    transform: skewY(-4deg);
+    display: flex;
+    justify-content: center;
+    border: #00C6E0;
+    border-style: solid;
+}
+
+.retangulo-torto-container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medico-sobre {
+    border: #00C6E0;
+    border-style: solid;
+    object-fit: cover;
+    height: 65%;
+    width: 30%;
+    border-radius: 15%;
+    transform: skewY(4deg);
+}
+
+.textos-sobre {
+    height: 65%;
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transform: skewY(4deg);
+}
+
+.titulo-sobre {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-sobre {
+    text-decoration: none;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 140%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nossas-especialidades {
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-nossas-especialidades{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titulo-nossas-especialidades p {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.especialidades-home {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.especialidades-home-container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quadrado-especialidade {
+    width: 30%;
+    height: 80%;
+    background-color: #C3F0DD;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img-especialidade {
+    width: 50%;
+    height: 100%;
+    background-color: #CCCCCC;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-especialidade img {
+    height: 50%;
+    width: auto;
+}
+
+.txt-especialidade {
+    width: 45%;
+    height: 90%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.titulo-txt-especialidade {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+}
+
+.texto-txt-especialidade {
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    width: 85%;
+    color: #3a3a3a;
+}
+
+.ver-todas {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.ver-todas-container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.ver-todas-botao {
+    height: 10%;
+    display: flex;
+    justify-content: right;
+}
+
+.ver-todas-botao a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #3a3a3a;
+}
+
+footer {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 200px;
+    border-top: #dbdbdb;
+    border-top-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-width: thick;
+}
+
+footer p {
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-login {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 140px;
+    border-bottom: #dbdbdb;
+    border-bottom-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-width: thick;
+}
+
+.logo-header-login {
+    width: 14%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-header-login img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-login {
+    width: 100%;
+    height: 900px;
+    background-color: #D4EFF3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-main-login {
+    width: 55%;
+    height: 80%;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #dbdbdb;
+    border-width: thick;
+    border-radius: 60px;
+    box-shadow: 25px 25px 50px 0px #00000033;
+}
+
+.conteudo-main-login-container {
+    width: 80%;
+    height: 100%;
+}
+
+.para-continuar {
+    display: flex;
+    align-items: flex-end;
+    justify-items: left;
+    height: 12%;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    font-weight: normal;
+    letter-spacing: 0em;
+}
+
+.google {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #878787;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: #dbdbdb;
+    border-style: solid;
+    height: 8%;
+    margin-top: 3%;
+}
+
+.google img {
+    width: 3%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.linha {
+    width: 40%;
+    background-color: #3a3a3a;
+    height: 1px;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    height: 15%;
+}
+
+.email-senha {
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    font-weight: normal;
+    letter-spacing: 0em;
+}
+
+.caixa {
+    background-color: #FFFFFF;
+    border: #dbdbdb;
+    border-style: solid;
+    height: 8%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.senha-lembrar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.esqueceu {
+    text-transform: capitalize;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0em;
+}
+
+.lembrar {
+    display: flex;
+    justify-content: space-between;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    height: 100%;
+    width: 180px;
+}
+
+.lembrar-quadrado {
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+    border: #dbdbdb;
+    border-style: solid;
+}
+
+.entrar-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    font-weight: normal;
+    letter-spacing: 0em;
+    width: 30%;
+    height: 85%;
+    background-color: #C3F0DD;
+    border-radius: 50px;
+    border: #dbdbdb;
+    border-style: solid;
+    text-decoration: none;
+}
+
+.espaco-vazio {
+    width: 100%;
+    height: 100px;
+}
